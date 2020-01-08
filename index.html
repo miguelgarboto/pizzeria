@@ -2,153 +2,265 @@
 <html lang="es">
 
 <head>
-    <title>Pizzeria</title>
-    <meta charset="UTF-8">
-    <meta name="title" content="Título de la WEB">
-    <meta name="description" content="Descripción de la WEB">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <title>Pizzeria</title>
+  <meta charset="UTF-8">
+  <meta name="title" content="Título de la WEB">
+  <meta name="description" content="Descripción de la WEB">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
-   <!-- Compiled and minified CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-   
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
 
 <body>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <header>
 
-    <header>
 
-    </header>
+  </header>
 
-    <nav>
+  <nav>
 
-    </nav>
+  </nav>
 
-    <section>
-        <article>
+  <section>
+    <article>
 
-            
 
-        </article>
-    </section>
+
+    </article>
+  </section>
+
+  <div id="caja1" class="col s12 m4 l3 card-panel blue darken-3">
+    <h1 id="titulo">Crea tu pizza</h1>
+    <h6>Crea tu pizza!</h6>
+    <p id="texto">Diviértete creando tu pizza perfecta, elige tu masa favorita y los ingredientes que mas
+      te gustan. Ponle
+      nombre a tu receta y guárdala para hacer tu<br>
+      próximo pedido más rápido y fácil.</p>
+
+  </div>
+
+
+
 
   <div class="row">
 
-    <div class="col s12 m4 l3 yellow">
-      <p>Este texto utilizará 12 columnas en una pantalla pequeña, 4 en una pantalla mediana (m4),
-        y 3 en una pantalla grande (l3)</p>
-    </div>
-    <form class="col s12">
-      <div class="input-field col s12">
-        <select>
-          <option value="" disabled selected>Choose your option</option>
-          <option value="1">Option 1</option>
-          <option value="2">Option 2</option>
-          <option value="3">Option 3</option>
+    <div id="div1">
+
+      <p id="parrafo1">¿Cómo la quieres?</p>
+
+      <div class="input-field col s2">
+        <select class="browser-default" disabled>
+          <option value="" disabled selected>1 pizza</option>
+          <option value="1">1 pizza</option>
         </select>
-
-
-        <label>¿Cuál es tu salsa?</label>
       </div>
+
+      <div class="input-field col s2">
+        <select class="browser-default">
+          <option value="" disabled selected>Elegir un tamaño</option>
+          <option value="1">Pequeña</option>
+          <option value="2">Mediana</option>
+          <option value="3">Grande</option>
+        </select>
+      </div>
+      <label id="label1">Para dos personas</label>
+
+
+
+
+      <div class="input-field col s2">
+        <select class="browser-default">
+          <option value="" disabled selected>Tipo de masa</option>
+          <option value="1">Original</option>
+          <option value="2">Fina</option>
+        </select>
+      </div>
+      <label id="label2">Para aquellos amantes del auténtico sabor de la pizza</label>
+
+    </div>
+
+    <p id="parrafo2">¿Cuál es tu salsa?</p>
+    <div id="div2">
 
       <div class="row "></div> <!-- linea en blanco -->
-
-      <div class="col s1">
-        <label>
-          <input name="group1" type="radio" checked />
-          <span>Sin salsa</span>
-        </label>
+      <form action="#">
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio" checked />
+            <span>Sin salsa</span>
+          </label>
+        </p>
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio" />
+            <span>Salsa Barbacoa</span>
+          </label>
+        </p>
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio" />
+            <span>Salsa de tomate</span>
+          </label>
+        </p>
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio"/>
+            <span>Crema fresca</span>
+          </label>
+        </p>
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio"/>
+            <span>Crema fresca y barbacoa</span>
+          </label>
+        </p>
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio"/>
+            <span>Salsa Bourbon (0% alcohol)</span>
+          </label>
+        </p>
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio"/>
+            <span>Salsa barbacoa Texas</span>
+          </label>
+        </p>
+        <p class="input-field col s2">
+          <label>
+            <input class="with-gap" name="group1" type="radio" />
+            <span>Salsa barbacoa Kansas</span>
+          </label>
+        </p>
+      </form>
       </div>
-      <div class="col s1">
-        <label>
-          <input name="group1" type="radio" />
-          <span>Salsa Barbacoa</span>
-        </label>
-      </div>
-      <div class="col s1">
-        <label>
-          <input class="with-gap" name="group1" type="radio" />
-          <span>Salsa de tomate</span>
-        </label>
-      </div>
-      <div class="col s3">
-        <label>
-          <input name="group1" type="radio" />
-          <span>Black</span>
-        </label>
-      </div>
 
-      <div class="col s4">
 
-        <img class="responsive-img" src="Imagenes/tomate.png" width="80" height="80">
-      </div>
-      <div class="col s4">
-        <img class="responsive-img" src="Imagenes/bacon.png">
-      </div>
-      <div class="col s4">
+ <p id="parrafo3">¿Cuánta mozzarella te apetece?</p>
+<div id="div3">
 
-        <img class="responsive-img" src="Imagenes/aceitunas.png">
-      </div>
-      <div class="col s4">
+  <form action="#">
+    <p class="range-field">
+      <input type="range" id="test5" min="0" max="100" />
+    </p>
+  </form>
 
-        <label>
-          <input type="checkbox" />
-          <span>Tomate</span>
-        </label>
 
-      </div>
 
-      <div class="col s4">
 
-        <label>
-          <input type="checkbox" />
-          <span>Bacon</span>
-        </label>
 
-      </div>
-      <div class="col s4">
 
-        <label>
-          <input type="checkbox" />
-          <span>Aceitunas</span>
-        </label>
 
-      </div>
-      <div class="row "></div> <!-- linea en blanco -->
-      <div class="col s4">
 
-        <button class="btn waves-effect waves-light" type="submit" name="action">Calcular
-          
-        </button>
 
-      </div>
-      
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<br>
+
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="col s4">
+
+      <img class="responsive-img" src="Imagenes/tomate.png" width="80" height="80">
+    </div>
+    <div class="col s4">
+      <img class="responsive-img" src="Imagenes/bacon.png">
+    </div>
+    <div class="col s4">
+
+      <img class="responsive-img" src="Imagenes/aceitunas.png">
+    </div>
+    <div class="col s4">
+
+      <label>
+        <input type="checkbox" />
+        <span>Tomate</span>
+      </label>
+
+    </div>
+
+    <div class="col s4">
+
+      <label>
+        <input type="checkbox" />
+        <span>Bacon</span>
+      </label>
+
+    </div>
+    <div class="col s4">
+
+      <label>
+        <input type="checkbox" />
+        <span>Aceitunas</span>
+      </label>
+
+    </div>
+    <div class="row "></div> <!-- linea en blanco -->
+    <div class="col s4">
+
+      <button class="btn waves-effect waves-light" type="submit" name="action">Calcular
+
+      </button>
+
+    </div>
+
     </form>
   </div>
 
 
-    <aside>
 
-    </aside>
 
-    <footer>
 
-    </footer>
+  <aside>
+
+  </aside>
+
+  <footer>
+
+  </footer>
 
 </body>
 
 </html>
-
-
-
-
-
-
-

@@ -1,0 +1,73 @@
+body{
+  background-color: #d8dee1;
+}
+
+#caja1{
+  position: relative;
+  bottom: 140px;
+}
+
+#titulo{
+  color: white;
+  position: relative;
+  font-weight: bold;
+  bottom: 25%;
+}
+
+h6{
+  color: white;
+  position: relative;
+  bottom: 25%;
+}
+
+#texto{
+  color: white;
+  position: relative;
+  bottom: 25%;
+}
+
+#parrafo1{
+  position: relative;
+  top: 17px;
+  left: 15px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#label1{
+  position: relative;
+  top: 70px;
+  right: 436px;
+}
+
+#label2{
+  position: relative;
+  top: 70px;
+  right: 308px;
+}
+
+#parrafo2{
+  position: relative;
+  bottom: 30px;
+  right: 658px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#div1{
+  position: relative;
+  bottom: 140px;
+}
+
+#div2{
+  position: relative;
+  bottom: 70px;
+}
+
+#parrafo3{
+  position: relative;
+  top: 40px;
+  right: 435px;
+  font-weight: bold;
+  font-size: 120%;
+}
