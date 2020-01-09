@@ -67,7 +67,109 @@ h6{
 #parrafo3{
   position: relative;
   top: 40px;
-  right: 435px;
+  right: 887px;
   font-weight: bold;
   font-size: 120%;
+}
+
+#div3{
+  position: relative;
+  bottom: 120px;
+}
+
+#opcion1{
+  font-size: 13px;
+  position: relative;
+  left: 30px;
+  top: 40px;
+  color: #b19ea9;
+}
+
+#opcion2{
+  font-size: 13px;
+  position: relative;
+  left: 170px;
+  top: 7px;
+  color: #b19ea9;
+}
+
+#opcion3{
+  font-size: 13px;
+  position: relative;
+  left: 380px;
+  bottom: 26px;
+  color: #b19ea9;
+}
+
+#opcion4{
+  font-size: 13px;
+  position: relative;
+  right: 600px;
+  bottom: 98px;
+  color: #b19ea9;
+  text-align: right;
+}
+
+#parrafo4{
+  position: relative;
+  right: 770px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#div4{
+  position: relative;
+  right: 680px;
+}
+
+#check1{
+  position: relative;
+  left: 150px;
+}
+
+#check2{
+  position: relative;
+  left: 265px;
+  bottom: 45px;
+}
+
+#check3{
+  position: relative;
+  left: 380px;
+  bottom: 91px;
+}
+
+#check4{
+  position: relative;
+  left: 490px;
+  bottom: 136px;
+}
+
+#check5{
+  position: relative;
+  left: 600px;
+  bottom: 181px;
+}
+
+#div6{
+  position: relative;
+  left: 110px;
+  bottom: 140px;
+}
+
+#div7{
+  position: relative;
+  right: 335px;
+  bottom: 30px;
+}
+button{
+  position: relative;
+  bottom: 170px;
+  left: 30px;
+}
+
+#pizza{
+  position: relative;
+  left: 1050px;
+  width: 400px;
 }
